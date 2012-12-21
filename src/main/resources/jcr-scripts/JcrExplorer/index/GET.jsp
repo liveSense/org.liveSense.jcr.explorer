@@ -4,20 +4,34 @@
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%@page session="false"%>
 <%@page contentType="text/html; charset=UTF-8"%>
-<c:if test="${not fn:endsWith(pageContext.request.requestURI, '/jcrexplorer/')}">
+
+<jsp:directive.include file="../sling.jsp" />
+<jsp:directive.include file="../authentication.jsp" />
+<jsp:directive.include file="../currentNode.jsp" />
+
+<c:choose>
+<c:when  test="${not authenticated}">
+	<html xmlns="http://www.w3.org/1999/xhtml" lang="hu">
+	<head>
+		<title>liveSense JCR Explorer Redirect</title>
+		<meta http-equiv="refresh" content="0;<c:url value="/jcrexplorer/login?resource=/jcrexplorer/"/>">
+	</head>
+	</html>
+</c:when>
+<c:when test="${authenticated && not fn:endsWith(pageContext.request.requestURI, '/jcrexplorer/')}">
 	<html xmlns="http://www.w3.org/1999/xhtml" lang="hu">
 	<head>
 		<title>liveSense JCR Explorer Redirect</title>
 		<meta http-equiv="refresh" content="0;<c:url value="/jcrexplorer/"/>">
 	</head>
 	</html>
-</c:if>
-<c:if test="${fn:endsWith(pageContext.request.requestURI, '/jcrexplorer/')}">
+</c:when>
+<c:when test="${authenticated && fn:endsWith(pageContext.request.requestURI, '/jcrexplorer/')}">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="hu">
 <head>
 <title>liveSense JCR Explorer</title>
 <meta name="description" content="liveSense JCR Explorer">
-<script type="text/javascript" language="javascript" src="/jcrexplorer/jcrexplorer/jcrexplorer.nocache.js"></script>
+<script type="text/javascript" language="javascript" src="jcrexplorer/jcrexplorer.nocache.js"></script>
 <style type="text/css">
 	h1 {
 	  font-size: 2em;
@@ -52,10 +66,8 @@
 </style>
 </head>
 <body>
-	<jsp:directive.include file="../sling.jsp" />
-	<jsp:directive.include file="../authentication.jsp" />
-	<jsp:directive.include file="../currentNode.jsp" />
 	<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
 </body>
 </html>
-</c:if>
+</c:when>
+</c:choose>

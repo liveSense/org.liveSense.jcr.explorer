@@ -41,7 +41,7 @@
 	<meta name="description" content="Libra SAAS"/>
 	<jsp:directive.include file="../head-metatags.jsp" />
 	<jsp:directive.include file="../head-bootstrap.jsp" />
-	<link href="/jcrExplorer/css/login.css" rel="stylesheet">
+	<link href="css/login.css" rel="stylesheet">
 </head>
 <body>
 	<jsp:directive.include file="../currentNode.jsp" />
@@ -86,14 +86,6 @@
 		</div>
 		
 	</div> <!-- /container -->
-	<div class="container">
-		<div class="content login-extra">
-			<div class="row">
-				<div class="span4 show-grid"><a data-placement="right" data-content="${node.properties.changePasswordDescription}" rel="popover" class="btn btn-danger" href="/changepassword.html" data-original-title="${node.properties.changePasswordTitle}">${node.properties.changePasswordCaption}</a></div>
-				<div class="span4 show-grid"><a data-placement="right" data-content="${node.properties.registrationDescription}" rel="popover" class="btn btn-primary" href="/registration.html" data-original-title="${node.properties.registrationTitle}">${node.properties.registrationCaption}</a></div>
-			</div>
-		</div>
-	</div>
 	
 	<jsp:directive.include file="../javascript-jquery.jsp" />
 	<jsp:directive.include file="../javascript-bootstrap.jsp" />

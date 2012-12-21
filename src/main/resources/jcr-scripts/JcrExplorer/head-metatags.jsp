@@ -11,6 +11,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
 
 <noscript>
-	<meta http-equiv="refresh" content="0; url=/noscript.html" />
+	<meta http-equiv="refresh" content="0; url=noscript.html" />
 </noscript>
 

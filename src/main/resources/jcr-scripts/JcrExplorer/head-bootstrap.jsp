@@ -1,15 +1,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="Libra Szoftver Zrt.">
 <%--  Original --%>
-<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <%-- Cerulean --%>
-<link href="/css/bootstrap.min.css" rel="stylesheet">
-<link href="/css/override.css" rel="stylesheet">
-<link href="/css/navbar.css" rel="stylesheet">
-<link href="/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-<link href="/bootstrap/css/bootstrap-combobox.css" rel="stylesheet">
-<link rel="stylesheet" href="/fontawesome/css/font-awesome.css">
-<link rel="stylesheet" href="/css/validate.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/override.css" rel="stylesheet">
+<link href="css/navbar.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap-combobox.css" rel="stylesheet">
+<link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+<link rel="stylesheet" href="css/validate.css">
 
 <!--[if IE 7]>
   <link rel="stylesheet" href="/fontawesome/css/font-awesome-ie7.css">
