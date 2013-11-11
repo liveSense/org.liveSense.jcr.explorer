@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><features name="liveSense-${liveSense.version}-jcr-explorer" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+	<feature name="liveSense-jcr-explorer" version="${liveSense.jcr.explorer.version}" description="liveSense jcr explorer">
+		<feature>liveSense-core-base</feature>
+		<feature>liveSense-scripting-jsp-taglib-jstl</feature>
+        <feature>liveSense-service-gwt</feature>
+		<feature>liveSense-service-languageSelector</feature>
+		<feature>liveSense-service-securityManager</feature>
+        <bundle>mvn:com.github.livesense/org.liveSense.jcr.explorer/${liveSense.jcr.explorer.version}</bundle>
+	</feature>
+</features>
