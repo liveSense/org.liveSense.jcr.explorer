@@ -26,9 +26,9 @@
 		<relativePath>..</relativePath>
 	</parent>
 	<scm>
-		<connection>scm:git:git://github.com/liveSense/org.liveSense.sample.gwt.notes.git</connection>
-		<developerConnection>scm:git:git://github.com/liveSense/org.liveSense.sample.gwt.notes.git</developerConnection>
-		<url>https://github.com/liveSense/org.liveSense.sample.gwt.notes</url>
+		<connection>scm:git:https://github.com/liveSense/org.liveSense.jcr.explorer.git</connection>
+		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.jcr.explorer.git</developerConnection>
+		<url>https://github.com/liveSense/org.liveSense.jcr.explorer</url>
 	</scm>
 
 	<artifactId>org.liveSense.jcr.explorer</artifactId>
