@@ -26,7 +26,10 @@
 		<relativePath>..</relativePath>
 	</parent>
     <version>1.0.3-SNAPSHOT</version>
-	<scm>
+    <properties>
+        <maven.javadoc.encoding>utf-8</maven.javadoc.encoding>
+    </properties>
+    <scm>
 		<connection>scm:git:https://github.com/liveSense/org.liveSense.jcr.explorer.git</connection>
 		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.jcr.explorer.git</developerConnection>
 		<url>https://github.com/liveSense/org.liveSense.jcr.explorer</url>
