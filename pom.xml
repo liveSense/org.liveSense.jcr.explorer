@@ -25,12 +25,13 @@
 		<version>1.0.3</version>
 		<relativePath>..</relativePath>
 	</parent>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
 	<scm>
 		<connection>scm:git:https://github.com/liveSense/org.liveSense.jcr.explorer.git</connection>
 		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.jcr.explorer.git</developerConnection>
 		<url>https://github.com/liveSense/org.liveSense.jcr.explorer</url>
-	</scm>
+	  <tag>1.0.3</tag>
+  </scm>
 
 	<artifactId>org.liveSense.jcr.explorer</artifactId>
 	<packaging>bundle</packaging>
@@ -108,12 +109,12 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<configuration>
 					<archive>
-						/</!/-/- add the generated manifest to the war /-/-/>
+						/</!/-/- add the generated manifest to the war /-/- />
 						<manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
 						
 					</archive>
 					<webResources>
-						/</!/-/- Legal stuff /-/-/>
+						/</!/-/- Legal stuff /-/- />
 						<resource>
 							<directory>${project.build.outputDirectory}/META-INF</directory>
 							<targetPath>META-INF</targetPath>
