@@ -1,6 +1,6 @@
 <%@page import="org.apache.sling.api.scripting.SlingScriptHelper"%>
 <%@page import="javax.jcr.Node"%>
-<%@page import="org.liveSense.core.wrapper.JcrNodeWrapper"%>
+<%@page import="org.liveSense.misc.jcrWrapper.JcrNodeWrapper"%>
 <%
 {
 	Node currentNode = (Node)pageContext.getAttribute("currentNode");

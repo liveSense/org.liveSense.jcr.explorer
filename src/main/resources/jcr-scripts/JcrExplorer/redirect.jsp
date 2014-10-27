@@ -1,6 +1,6 @@
 <%@page import="org.apache.sling.api.scripting.SlingScriptHelper"%>
 <%@page import="javax.jcr.Node"%>
-<%@page import="org.liveSense.core.wrapper.GenericValue"%>
+<%@page import="org.liveSense.misc.jcrWrapper.GenericValue"%>
 <%@page import="java.util.Map"%>
 <%@page import="org.liveSense.service.securityManager.SecurityManagerService"%>
 <%@page import="org.apache.commons.lang.StringUtils"%>

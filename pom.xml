@@ -195,7 +195,6 @@
 					<execution>
 						<configuration>
 							<module>${project.artifactId}.${gwt.project}</module>
-							<runTarget>http://localhost:8080/jcrexplorer</runTarget>
 						</configuration>
 						<goals>
 							<goal>compile</goal>
@@ -257,6 +256,10 @@
 		<dependency>
 			<groupId>com.github.livesense</groupId>
 			<artifactId>org.liveSense.core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.livesense</groupId>
+			<artifactId>org.liveSense.misc.jcrWrapper</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.github.livesense</groupId>

@@ -8,7 +8,7 @@
 <%@page import="org.apache.sling.api.SlingHttpServletRequest"%>
 <%@page import="java.util.Locale"%>
 <%@page import="org.liveSense.service.languageselector.LanguageSelectorService"%>
-<%@page import="org.liveSense.core.wrapper.JcrNodeWrapper"%>
+<%@page import="org.liveSense.misc.jcrWrapper.JcrNodeWrapper"%>
 <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%
 

@@ -8,7 +8,7 @@
 <%@page import="org.apache.commons.lang.StringUtils"%>
 <%@page import="org.apache.sling.jcr.jackrabbit.accessmanager.PrivilegesInfo"%>
 <%@page import="org.apache.sling.api.resource.ValueMap"%>
-<%@page import="org.liveSense.core.wrapper.JcrNodeWrapper"%>
+<%@page import="org.liveSense.misc.jcrWrapper.JcrNodeWrapper"%>
 <%
 {
 	SlingScriptHelper sling = (SlingScriptHelper)pageContext.getAttribute("slingScriptHelper");

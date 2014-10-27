@@ -2,7 +2,7 @@
 <%@page import="org.apache.sling.api.resource.Resource"%>
 <%@page import="org.apache.sling.api.scripting.SlingScriptHelper"%>
 <%@page import="org.apache.sling.api.scripting.SlingBindings"%>
-<%@page import="org.liveSense.core.wrapper.JcrNodeWrapper"%>
+<%@page import="org.liveSense.misc.jcrWrapper.JcrNodeWrapper"%>
 
 
 <%
