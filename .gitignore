@@ -1,8 +1,10 @@
 .svn
 .hg
 /target
-/war/*
+/war
+/src
 /.settings
 /.project
 /.classpath
 /nbactions.xml
+*.iml
